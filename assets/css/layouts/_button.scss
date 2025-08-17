@@ -1,0 +1,17 @@
+.btn {
+    color: $white;
+    padding: 10px 40px;
+    display: inline-block;
+    &--primary {
+        background-color: $primary_color;
+    }
+    &--danger {
+        background-color: red;
+        &:hover{
+            color: green;
+        }
+    }
+    &--info {
+        background-color: green;
+    }
+}

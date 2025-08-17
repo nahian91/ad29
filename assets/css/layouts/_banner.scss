@@ -1,0 +1,24 @@
+.banner-area {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include large {
+        height: auto;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    .banner{
+        h1{
+            color: $white;
+            font-size: 70px;
+        }
+        h4{
+            color: $white;
+            font-size: 20px;
+        }
+        a{
+
+        }
+    }
+}

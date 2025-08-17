@@ -1,0 +1,28 @@
+.header-area{
+    &.sticky {
+        position: fixed;
+        z-index: 999999;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        a{
+            color: $white;
+        }
+    }
+    .logo {
+        font-size: 25px;
+        border: 1px solid #ddd;
+        display: inline-block;
+        padding: 10px 40px;
+    }
+    .mainmenu{
+        li{
+            a{
+                &:hover{
+                    color: $primary_color;
+                }
+            }
+        }
+    }
+}

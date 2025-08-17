@@ -1,0 +1,32 @@
+.section-title {
+    &__subtitle {
+        display: block;
+        font-size: 18px;
+    }
+    &__title {
+        font-size: 35px;
+        position: relative;
+        &:before, &:after{
+            position: absolute;
+            content: "";
+            background-color: $primary_color;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &:before {            
+            width: 80px;
+            height: 2px;            
+            bottom: 0;
+        }
+        &:after {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            bottom: -4px;
+        }
+    }
+    &__desc {
+        max-width: 700px;
+        margin: 30px auto 0;
+    }
+}

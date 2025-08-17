@@ -1,0 +1,47 @@
+.about{
+    &__img{
+        @include large {
+            text-align: center;
+        }
+        img{
+            @include large {
+                max-width: 300px;
+            }
+        }
+    }
+    &__content{
+
+    }
+    &__content-title{
+        color: #ff3636;
+        text-transform: capitalize;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    &__content-subtitle{
+        text-transform: capitalize;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    &__content-desc{
+        margin-bottom: 20px;
+    }
+    &__feature{
+
+    }
+    &__feature-item{
+        position: relative;
+        padding-left: 25px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        &:before {
+            position: absolute;
+            content: "\f101";
+            font-family: "Font Awesome 5 FREE";
+            font-weight: 700;
+            color: red;
+            left: 0;
+            top: 0;
+        }
+    }
+}

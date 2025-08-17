@@ -1,0 +1,54 @@
+.contact{
+    &__title {
+        font-size: 24px;
+    }
+    &__input {
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+    &__msg {
+        width: 100%;
+        border: 1px solid #ddd;
+        padding: 10px;
+        height: 100px;
+    }
+    &__submit {
+        background-color: $primary_color;
+        width: 190px;
+        margin: auto;
+        display: block;
+        border: none;
+        color: $white;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    &__single {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__single-icon {
+        background-color: $primary_color;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: $white;
+    }
+    &__single-title {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    &__single-info {
+        display: block;
+        text-transform: initial;
+        font-weight: 500;
+    }
+}

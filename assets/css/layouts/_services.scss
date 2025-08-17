@@ -1,0 +1,28 @@
+.service{
+    background-color: $bg_gray;
+    &__single{
+        text-align: center;
+        background-color: $white;
+        padding: 20px;
+        &:hover{
+            .service__icon {
+                border-radius: 50%;
+            }
+        }
+    }
+    &__icon {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        background-color: $primary_color;
+        color: $white;
+        font-size: 20px;
+        transition: .3s;
+    }
+    &__title{
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+}
